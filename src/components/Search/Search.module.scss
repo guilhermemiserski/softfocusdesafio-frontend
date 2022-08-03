@@ -1,0 +1,25 @@
+.searchInput {
+    border-radius: 100px;
+    background-color: #ffff;
+    font-size: larger;
+    padding: 18px;
+    border: 1px solid black;
+    width: 75%;
+    font-family: Arial, FontAwesome;
+    margin: auto;
+
+}
+
+.searchInput:focus {
+    outline: 2px solid #0195ee;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

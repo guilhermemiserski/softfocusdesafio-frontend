@@ -1,0 +1,25 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .searchInputDiv {
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content : center;
+  }
+
+  .buttonInputDiv {
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content : center;
+  }
+
+  .titulo {
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+  }

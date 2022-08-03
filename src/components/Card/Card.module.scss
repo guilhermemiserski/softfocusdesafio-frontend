@@ -1,0 +1,32 @@
+.Card {
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    margin: 20px;
+  
+    &:hover,
+    &:focus,
+    &:active {
+      color: #0195ee;
+      border-color: #0195ee;
+    }
+  
+    h2 {
+      margin: 0 0 1rem 0;
+      font-size: 1.5rem;
+    }
+  
+    p {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  
+    .iconsCard {
+      padding: 6px;
+      float: right;
+    }
+  }
