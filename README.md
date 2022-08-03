@@ -30,4 +30,4 @@ Caso queira utilizar no localhost altere as variáveis de ambiente para a url no
 
 ## Screenshots
 
-![Formúlario](https://prnt.sc/9iJ4MGIqIggU)
+[![Form.png](https://i.postimg.cc/pd9t9BdX/Form.png)](https://postimg.cc/LqMWwLfr)
