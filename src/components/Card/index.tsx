@@ -17,6 +17,8 @@ interface ICard {
 }
 
 const Card = ({ id, children, name, email, cpf, longitude, latitude, type, harvestDate, event }: ICard) => {
+
+    const API_URL = "https://softfocus-api.herokuapp.com" + "/cops/";
     const navigate = useNavigate();
 
     const deletar = (id: string) => {
@@ -25,7 +27,7 @@ const Card = ({ id, children, name, email, cpf, longitude, latitude, type, harve
             headers: { 'Content-Type': 'application/json' },
         };
 
-        fetch("http://localhost:3000/cops/" + id, options)
+        fetch(API_URL + id, options)
             .then(res => res.json())
             .then(json => console.log(json))
             .catch(err => console.error('error:' + err));
