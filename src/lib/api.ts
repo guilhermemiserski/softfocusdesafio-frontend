@@ -1,4 +1,4 @@
-const API = "https://softfocus-api.herokuapp.com";
+const API = process.env.API_URL;
 
 const endpoint = (path: string): string => API + path;
 
