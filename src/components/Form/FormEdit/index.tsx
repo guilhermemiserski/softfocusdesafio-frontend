@@ -26,6 +26,7 @@ function FormEdit({ id, nameDefault, emailDefault, cpfDefault, latitudeDefault, 
     const [type, setType] = useState(typeDefault);
     const [harvestDate, setHarvestDate] = useState(harvestDateDefault);
     const [event, setEvent] = useState(eventDefault);
+    const API_URL = process.env.API_URL + "/cops";
 
     const navigate = useNavigate();
 
@@ -47,7 +48,7 @@ function FormEdit({ id, nameDefault, emailDefault, cpfDefault, latitudeDefault, 
                 })
             };
 
-            fetch("http://localhost:3000/cops/" + id, options)
+            fetch(API_URL + id, options)
                 .then(res => res.json())
                 .then(json => console.log(json))
                 .catch(err => console.error('error:' + err));

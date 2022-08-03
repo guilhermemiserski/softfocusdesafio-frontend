@@ -17,6 +17,7 @@ function Form() {
     const [harvestDate, setHarvestDate] = useState("");
     const [event, setEvent] = useState("");
     const [cops, setCops] = useState<ICops[]>([]);
+    const API_URL = process.env.API_URL + "/cops";
     let haveDivergeCops = false;
     const navigate = useNavigate();
 
@@ -106,7 +107,7 @@ function Form() {
                     })
                 };
 
-                fetch("http://localhost:3000/cops", options)
+                fetch(API_URL, options)
                     .then(res => res.json())
                     .then(json => console.log(json))
                     .catch(err => console.error('error:' + err));
