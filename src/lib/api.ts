@@ -1,4 +1,4 @@
-const API = "http://localhost:3000";
+const API = "https://softfocus-api.herokuapp.com";
 
 const endpoint = (path: string): string => API + path;
 
