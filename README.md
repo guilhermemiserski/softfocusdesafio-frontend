@@ -15,7 +15,7 @@ não esqueça de clonar a API também que se encontra [aqui](https://github.com/
 
 ```bash
   git clone https://github.com/guilhermemiserski/softfocusdesafio-frontend.git
-  cd softfocus-frontend
+  cd softfocusdesafio-frontend
   npm install
   npm start
 ```
