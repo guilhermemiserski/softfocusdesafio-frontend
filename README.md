@@ -3,7 +3,9 @@
 
 Projeto desenvolvido em React.TS e Node.JS para solucionar o desafio para vaga
  de Desenvolvedor Web Junior,
- o deploy já esta efetuado no Heroku e você pode acessar o projeto entrando [aqui](https://softfocusdesafio-frontend.herokuapp.com/).
+ o deploy já esta efetuado no Heroku e você pode acessar o projeto entrando [aqui](https://softfocusdesafio-frontend.herokuapp.com/),
+ infelizmente o Heroku deixa o projeto em modo de hibernação depois de 30 minutos(na versão free)! Então caso ele apareça como vazio,
+ tente atualizar a página depois de 2 minutos.
 
 
 ## Instalação
