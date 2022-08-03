@@ -17,7 +17,7 @@ function Form() {
     const [harvestDate, setHarvestDate] = useState("");
     const [event, setEvent] = useState("");
     const [cops, setCops] = useState<ICops[]>([]);
-    const API_URL = process.env.API_URL + "/cops";
+    const API_URL = "https://softfocus-api.herokuapp.com/" + "/cops";
     let haveDivergeCops = false;
     const navigate = useNavigate();
 

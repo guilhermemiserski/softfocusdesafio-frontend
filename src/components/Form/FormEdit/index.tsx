@@ -26,7 +26,7 @@ function FormEdit({ id, nameDefault, emailDefault, cpfDefault, latitudeDefault, 
     const [type, setType] = useState(typeDefault);
     const [harvestDate, setHarvestDate] = useState(harvestDateDefault);
     const [event, setEvent] = useState(eventDefault);
-    const API_URL = process.env.API_URL + "/cops";
+    const API_URL = "https://softfocus-api.herokuapp.com/" + "/cops";
 
     const navigate = useNavigate();
 

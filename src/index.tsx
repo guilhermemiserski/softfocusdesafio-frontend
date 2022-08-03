@@ -3,7 +3,6 @@ import './index.css';
 import { Rotas } from './routes/routes';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-require('dotenv').config();
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
